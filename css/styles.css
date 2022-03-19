@@ -17,6 +17,9 @@ header a {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding: 0 100px;
     background-color: #1d1f1d;
     height: 50px;
@@ -116,7 +119,7 @@ ul li:hover {
 }
 
 .main {
-    padding: 0 100px;
+    padding: 70px 100px 0 100px;
 }
 
 .config-header {
@@ -155,9 +158,14 @@ button {
     padding: 15px 50px;
     cursor: pointer
 }
+
 button:hover {
     color: #2d63c8;
     background-color: #ffff00;
+}
+
+.btn {
+    margin: 10px;
 }
 
 footer {
